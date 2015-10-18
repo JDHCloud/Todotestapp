@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'home/index'
+
+  get 'home/show'
+
+  get 'home/hide'
+
   resources :users
   resources :todolists
   # The priority is based upon order of creation: first created -> highest priority.
