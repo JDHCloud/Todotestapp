@@ -1,1 +1,1 @@
-run "ln -nfs #{shared_path}/config/secrets.yml #{current_path}/config/secrets.yml"
+run "ln -nfs #{config.shared_path}/secrets.yml #{config.release_path}/secrets.yml
